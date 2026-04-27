@@ -68,6 +68,8 @@
 </div><br>
 
 > **个人备注**：此 fork 主要用于学习和研究 OCR 工作流，以及测试 HTTP 接口的集成用法。上游仓库：[hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)
+>
+> **HTTP 接口测试说明**：本地测试时默认端口为 `1224`，接口文档见 [docs/http/README.md](docs/http/README.md)。常用测试命令：`curl http://127.0.0.1:1224/api/ocr` 。
 
 - **免费**：本项目所有代码开源，完全免费。
 - **方便**：解压即用，离线运行，无需网络。
@@ -108,12 +110,4 @@
 <details>
 <summary><b>•&nbsp;&nbsp;Scoop Installer</b>（点击展开）</summary>
 
-[Scoop](https://scoop.sh/) 是一款Windows下的命令行安装程序，可方便地管理多个应用。您可以先安装 Scoop ，再使用以下指令安装 `Umi-OCR` ：
-
-- 添加 `extras` 桶：
-```
-scoop bucket add extras
-```
-
-- （可选
-```
+[Scoop](https://scoop.sh/) 是一款
