@@ -72,7 +72,7 @@
 - **Efficient**: Comes with a highly efficient offline OCR engine. As long as the computer performance is sufficient, it can be faster than online OCR services.
 - **Flexible**: Supports customizable interface, and supports multiple calling methods such as command-line and HTTP API.
 
-> **Personal note:** I primarily use this tool for batch-processing scanned documents and screenshots. The HTTP API feature is especially useful for integrating OCR into my own scripts.
+> **Personal note:** I primarily use this tool for batch-processing scanned documents and screenshots. The HTTP API feature is especially useful for integrating OCR into my own scripts. The default HTTP API port is `1224` — I keep a reminder here since I reference it often in my automation scripts.
 
 <p align="center"><img src="https://tupian.li/images/2024/03/27/66040ec301b55.png" alt="1-标题-1.png" style="width: 80%;"></p>
 
@@ -85,10 +85,4 @@ Developers should read [Building the Project](#Build-the-Project) before proceed
 ## Download Releases:
 
 - **GitHub** https://github.com/hiroi-sora/Umi-OCR/releases/latest
-- **Source Forge** https://sourceforge.net/projects/umi-ocr
-- **Lanzou** https://hiroi-sora.lanzoul.com/s/umi-ocr
-
-<details>
-<summary><b>•&nbsp;&nbsp;Scoop Installer</b> (Click to expand)</summary>
-
-[Scoop](http
+- **Source Forge** https
